@@ -1,0 +1,442 @@
+/*Limpando Formatações Padrão do Navegador*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+/*divs Cabeçalho*/
+
+#Cabecalho {
+    background-color:royalblue;
+    padding: 25px;
+    text-align: center;
+
+}
+
+#Logo , #Menu{
+    padding: 10px;
+}
+
+
+h1{
+    color: #000000;
+    font-size: 2.5em;
+}
+
+h2{
+    color: black;
+    transition:all 0.3s ease;
+}
+
+h2:hover{
+    color: royalblue;
+    
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 10px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 10px;
+}
+
+
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+
+}
+
+.branco {
+    color: aliceblue;
+}
+
+
+
+/*divs Principal*/
+
+#Principal{
+
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+/*#Postagens , #Menu-lateral{
+    background: orange;
+
+}*/
+
+
+#Postagens{
+    width: 660px;
+    float: left;
+}
+
+#Menu-lateral{
+    width: 240px;
+    float: right;
+
+}
+
+.postagem{
+    padding: 0px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 8px;
+    border-bottom: 1px dotted #ccc;
+
+}
+
+/*clear:both faz o elemento cair abaixo 
+de quaisquer elementos 
+flutuantes que o precedem no documento. */
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: royalblue;
+    border-radius: 10px 10px 0px 0px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 10px 10px 0px 0px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 10px 10px 0px 0px;
+    opacity:0.5;
+    transition:all 0.3s ease;
+}
+
+#rodape:hover{
+    opacity:1;
+}
+
+#span-rodape{
+    color: white;
+}
+
+.git{
+    margin-left: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*Formatações links menu*/
+
+a{
+    text-decoration: none;
+}
+
+a:link ,  a:visited{
+    color: royalblue;
+
+}
+
+ a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 10px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 10px;
+    transition:all 1s ease;
+}
+
+#todo:hover{
+    text-decoration: none;
+    border-radius: 10px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 10px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 10px;
+    background-color: white;
+    color: royalblue;
+    transition:all 0.3s ease;
+
+}
+
+.branco:hover{
+    text-decoration: none;
+    border-radius: 10px;
+	/* Declaração para aparecer no Firefox */
+	-moz-border-radius: 10px;
+	/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+	-webkit-border-radius: 10px;
+    background-color: white;
+    color: royalblue;
+    transition:all 0.3s ease;
+
+}
+
+#Cabecalho a:link , #Cabecalho a:visited{
+    color: white;
+    padding: 8px 12px;
+
+}
+
+#Cabecalho a:hover{
+    color: royalblue;
+    background: white;
+    text-decoration: none;
+}
+
+#mais{
+    display: none;
+}
+
+
+#Linkleiamais{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+ }
+
+ #mais_{
+    display: none;
+}
+
+
+#Linkleiamais_{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+ }
+
+ #maistextoj{
+     display: none;
+ }
+
+ #leiamaisj{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+ }
+
+#maistextoJJ{
+    display: none;
+}
+
+#tituloJJ{
+    display: none;
+}
+
+#leiamaisjj{
+   display:inline;
+   background:transparent;
+   text-decoration: none;
+   border: none;
+   cursor: pointer;
+   color: royalblue;
+}
+
+#tituloJJQ{
+    display: none;
+}
+
+#maistextoJJQ{
+    display: none;
+}
+
+
+
+#maistextoJJJ{
+    display: none;
+}
+
+
+#leiamaisjjj{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+
+}
+
+#maistextoc{
+    display: none;
+}
+
+
+#leiamaisc{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+#listac{
+    display: none;
+}
+
+.lis{
+    margin-left: 15px;
+}
+
+
+#maistextocc{
+    display: none;
+}
+
+
+#leiamaiscc{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+#listacc{
+    display: none;
+}
+
+.lisc{
+    margin-left: 15px;
+}
+
+
+
+#maistextoccc{
+    display: none;
+}
+
+
+#leiamaisccc{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+#listaccc{
+    display: none;
+}
+
+.leiamaisi1{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.lisi1{
+    margin-left: 15px;
+}
+
+.leiamaisi2{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.lisi2{
+    margin-left: 15px;
+}
+
+
+.leiamaisi3{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+
+.lisi3{
+    margin-left: 15px;
+}
+
+.leiamaise1{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+.leiamaise2 , .leiamaise3{
+    display:inline;
+    background:transparent;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: royalblue;
+}
+
+
+.conteudola{
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+
+
+.imagens{
+    border-radius: 15px;
+
+}
+
+
+.paragrafopost{
+    margin-left: 5px;
+    max-width: 65ch;
+}
